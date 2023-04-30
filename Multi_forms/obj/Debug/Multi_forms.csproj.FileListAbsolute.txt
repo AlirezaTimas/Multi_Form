@@ -25,3 +25,18 @@ D:\Visual Studio Projects\Multi_Form\Multi_forms\obj\Debug\Multi_forms.pdb
 D:\Visual Studio Projects\Multi_Form\Multi_forms\obj\Debug\Multi_forms.LoginForm.resources
 D:\Visual Studio Projects\Multi_Form\Multi_forms\obj\Debug\Multi_forms.UserPannel.resources
 D:\Visual Studio Projects\Multi_Form\Multi_forms\obj\Debug\Multi_forms.CheckForm.resources
+D:\tester\Multi_Form\Multi_forms\bin\Debug\Multi_forms.exe.config
+D:\tester\Multi_Form\Multi_forms\bin\Debug\Multi_forms.exe
+D:\tester\Multi_Form\Multi_forms\bin\Debug\Multi_forms.pdb
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.csproj.AssemblyReference.cache
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.csproj.SuggestedBindingRedirects.cache
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.UserPannel.resources
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.CheckForm.resources
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.LoginForm.resources
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.PayForm.resources
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.Properties.Resources.resources
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.SearchForm.resources
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.csproj.GenerateResource.cache
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.csproj.CoreCompileInputs.cache
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.exe
+D:\tester\Multi_Form\Multi_forms\obj\Debug\Multi_forms.pdb
