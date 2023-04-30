@@ -10,17 +10,31 @@ using System.Windows.Forms;
 
 namespace Multi_forms
 {
-    public partial class Form1 : Form
+    public partial class UserPannel : Form
+        
     {
-        public Form1()
+        PayForm pf = new PayForm();
+
+        public UserPannel()
         {
             InitializeComponent();
+            pf.userpannel = this;
         }
 
-        PayForm pf = new PayForm();
         private void button1_Click(object sender, EventArgs e)
         {
             pf.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            this.Hide();
+        }
+
+        private void UserPannel_Load(object sender, EventArgs e)
+        {
+            this.AcceptButton = button1;
         }
     }
 }

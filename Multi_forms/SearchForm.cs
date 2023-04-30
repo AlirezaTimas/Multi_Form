@@ -13,6 +13,9 @@ namespace Multi_forms
     public partial class SearchForm : Form
     {
         public PayForm pf;
+        public string[] NamesArray = { "علی", "رضا", "محمد", "امید", "برسام", "دانیال" };
+        
+
         public SearchForm()
         {
             InitializeComponent();
@@ -26,11 +29,40 @@ namespace Multi_forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Contains("دانیال"))
+            if (textBox1.Text == NamesArray[0])
             {
-                pf.textBox1.Text = "14001037";
+                pf.textBox1.Text = "14001123";
                 this.Hide();
             }
+            else if (textBox1.Text == NamesArray[1])
+            {
+                pf.textBox1.Text = "14001345";
+                this.Hide();
+            }
+            else if (textBox1.Text == NamesArray[2])
+            {
+                pf.textBox1.Text = "14001965";
+                this.Hide();
+            }
+            else if (textBox1.Text == NamesArray[3])
+            {
+                pf.textBox1.Text = "14001785";
+                this.Hide();
+            }
+            else if (textBox1.Text == NamesArray[4])
+            {
+                pf.textBox1.Text = "14001321";
+                this.Hide();
+            }
+        }
+
+        private void SearchForm_Load(object sender, EventArgs e)
+        {
+            NamesBox.Items.Add(NamesArray[0]);
+            NamesBox.Items.Add(NamesArray[1]);
+            NamesBox.Items.Add(NamesArray[2]);
+            NamesBox.Items.Add(NamesArray[3]);
+            NamesBox.Items.Add(NamesArray[4]);
         }
     }
 }
