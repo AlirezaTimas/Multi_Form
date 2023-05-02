@@ -19,6 +19,7 @@ namespace Multi_forms
         {
             InitializeComponent();
             form1.lf = this;
+            this.AcceptButton = EnterButton;
             
         }
        

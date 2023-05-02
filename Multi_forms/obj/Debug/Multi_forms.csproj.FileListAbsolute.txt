@@ -70,3 +70,18 @@ C:\Users\Markazi.co\Source\Repos\AlirezaTimas\Multi_Form_Final\Multi_forms\obj\D
 C:\Users\Markazi.co\Source\Repos\AlirezaTimas\Multi_Form_Final\Multi_forms\obj\Debug\Multi_forms.exe
 C:\Users\Markazi.co\Source\Repos\AlirezaTimas\Multi_Form_Final\Multi_forms\obj\Debug\Multi_forms.pdb
 C:\Users\Markazi.co\Source\Repos\AlirezaTimas\Multi_Form_Final\Multi_forms\obj\Debug\Multi_forms.ExitCheckForm.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\bin\Debug\Multi_forms.exe.config
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\bin\Debug\Multi_forms.exe
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\bin\Debug\Multi_forms.pdb
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.csproj.AssemblyReference.cache
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.csproj.SuggestedBindingRedirects.cache
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.UserPannel.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.ExitCheckForm.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.LoginForm.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.PayForm.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.Properties.Resources.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.SearchForm.resources
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.csproj.GenerateResource.cache
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.csproj.CoreCompileInputs.cache
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.exe
+D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.pdb

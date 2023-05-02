@@ -44,7 +44,11 @@ namespace Multi_forms
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
+            lf.UsernameTextBox.Text = "نام کاربری خود را وارد کنید";
+            lf.PasswordTextBox.Text = "رمزعبور خود را وارد کنید";
+            lf.ActiveControl = lf.EnterButton;
             hider();
+
         }
         private void hider()
         {

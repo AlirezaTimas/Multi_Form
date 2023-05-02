@@ -95,8 +95,8 @@
         #endregion
 
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox UsernameTextBox;
-        private System.Windows.Forms.TextBox PasswordTextBox;
-        private System.Windows.Forms.Button EnterButton;
+       internal protected System.Windows.Forms.TextBox UsernameTextBox;
+         internal protected System.Windows.Forms.TextBox PasswordTextBox;
+        internal protected System.Windows.Forms.Button EnterButton;
     }
 }
