@@ -14,12 +14,13 @@ namespace Multi_forms
 {
     public partial class LoginForm : Form
     {
-
+       
         public LoginForm()
         {
             InitializeComponent();
+            form1.lf = this;
         }
-
+       
         private void LoginForm_Load(object sender, EventArgs e)
         {
             UsernameTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes; //changing direction of textboxes to RTL , because placeholders are written in Farsi.
@@ -71,6 +72,7 @@ namespace Multi_forms
             if (PasswordTextBox.Text == "admin" && UsernameTextBox.Text == "admin") //if user enters username first and password after
             {
                 form1.Show();
+                this.Hide();
             }
         }
 
@@ -79,6 +81,7 @@ namespace Multi_forms
             if (PasswordTextBox.Text == "admin" && UsernameTextBox.Text == "admin")
             {
                 form1.Show();
+                this.Hide();
 
             }
             else if (UsernameTextBox.Text == "نام کاربری خود را وارد کنید" && PasswordTextBox.Text == "رمزعبور خود را وارد کنید")
@@ -107,7 +110,7 @@ namespace Multi_forms
                 form1.Show();
             }
         }
-        CheckForm check = new CheckForm();
+        ExitCheckForm check = new ExitCheckForm();
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;

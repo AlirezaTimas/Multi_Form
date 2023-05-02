@@ -31,12 +31,14 @@ namespace Multi_forms
         {
             this.button1 = new System.Windows.Forms.Button();
             this.PaymentsListBox = new System.Windows.Forms.ListBox();
+            this.LoginButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1016, 188);
+            this.button1.Location = new System.Drawing.Point(1016, 150);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 97);
@@ -55,11 +57,36 @@ namespace Multi_forms
             this.PaymentsListBox.Size = new System.Drawing.Size(986, 484);
             this.PaymentsListBox.TabIndex = 1;
             // 
+            // LoginButton
+            // 
+            this.LoginButton.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.LoginButton.Location = new System.Drawing.Point(1016, 306);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(153, 45);
+            this.LoginButton.TabIndex = 2;
+            this.LoginButton.Text = "بازگشت به صفحه ورود";
+            this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.Color.Red;
+            this.ExitButton.Location = new System.Drawing.Point(1016, 366);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(153, 44);
+            this.ExitButton.TabIndex = 3;
+            this.ExitButton.Text = "خروج از برنامه";
+            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
             // UserPannel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1207, 514);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.PaymentsListBox);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -75,6 +102,8 @@ namespace Multi_forms
 
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.ListBox PaymentsListBox;
+        private System.Windows.Forms.Button LoginButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }
 

@@ -14,7 +14,8 @@ namespace Multi_forms
         
     {
         PayForm pf = new PayForm();
-
+       public LoginForm lf;
+   
         public UserPannel()
         {
             InitializeComponent();
@@ -25,16 +26,31 @@ namespace Multi_forms
         {
             pf.Show();
         }
-
+        
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
-            this.Hide();
+            hider();
         }
 
         private void UserPannel_Load(object sender, EventArgs e)
         {
             this.AcceptButton = button1;
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            hider();
+        }
+        private void hider()
+        {
+            this.Hide();
+            lf.Show();
+        }
+        ExitCheckForm ExitApp = new ExitCheckForm();
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            ExitApp.Show();
         }
     }
 }

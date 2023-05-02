@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Multi_forms
 {
-    public partial class CheckForm : Form
+    public partial class ExitCheckForm : Form
     {
        
-        public CheckForm()
+        public ExitCheckForm()
         {
             InitializeComponent();
         }

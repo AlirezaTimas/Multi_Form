@@ -1,6 +1,6 @@
 ﻿namespace Multi_forms
 {
-    partial class CheckForm
+    partial class ExitCheckForm
     {
         /// <summary>
         /// Required designer variable.
@@ -70,7 +70,7 @@
             this.NoButton.UseVisualStyleBackColor = false;
             this.NoButton.Click += new System.EventHandler(this.button2_Click);
             // 
-            // CheckForm
+            // ExitCheckForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,7 +79,7 @@
             this.Controls.Add(this.NoButton);
             this.Controls.Add(this.YesButton);
             this.Controls.Add(this.label1);
-            this.Name = "CheckForm";
+            this.Name = "ExitCheckForm";
             this.Text = "خروج";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CheckForm_FormClosing);
             this.Load += new System.EventHandler(this.CheckForm_Load);
