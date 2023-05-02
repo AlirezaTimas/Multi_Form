@@ -39,16 +39,21 @@ namespace Multi_forms
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(181, 107);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(115, 111);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(162, 22);
+            this.textBox1.Size = new System.Drawing.Size(272, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "توجه : تنها مجاز به استفاده از اعداد هستید";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(208, 167);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 49);
             this.button1.TabIndex = 1;
@@ -58,36 +63,43 @@ namespace Multi_forms
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(181, 54);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(115, 54);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(162, 22);
+            this.textBox2.Size = new System.Drawing.Size(272, 22);
             this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "توجه : تنها مجاز به استفاده از اعداد هستید";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(369, 104);
+            this.label1.Location = new System.Drawing.Point(391, 117);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label1.Size = new System.Drawing.Size(78, 16);
             this.label1.TabIndex = 3;
-            this.label1.Text = "کد دانشجویی";
+            this.label1.Text = "کد دانشجویی :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(369, 54);
+            this.label2.Location = new System.Drawing.Point(396, 60);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 16);
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 4;
-            this.label2.Text = "مبلغ";
+            this.label2.Text = "مبلغ (تومان) :";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(77, 100);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(11, 107);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 29);
             this.button2.TabIndex = 5;
@@ -106,9 +118,9 @@ namespace Multi_forms
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PayForm";
-            this.Text = "PayForm";
+            this.Text = "فرم پرداخت";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PayForm_FormClosing);
             this.Load += new System.EventHandler(this.PayForm_Load);
             this.ResumeLayout(false);

@@ -14,6 +14,7 @@ namespace Multi_forms
         
     {
         PayForm pf = new PayForm();
+        SearchForm sf = new SearchForm(); 
        public LoginForm lf;
    
         public UserPannel()
@@ -24,7 +25,10 @@ namespace Multi_forms
 
         private void button1_Click(object sender, EventArgs e)
         {
+            pf.textBox1.Text = "توجه : تنها مجاز به استفاده از اعداد هستید";
+            pf.textBox2.Text = "توجه : تنها مجاز به استفاده از اعداد هستید";
             pf.Show();
+
         }
         
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -44,7 +48,11 @@ namespace Multi_forms
         }
         private void hider()
         {
-            this.Hide();
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
+            {
+                if (Application.OpenForms[i].Name != "Menu")
+                    Application.OpenForms[i].Hide();
+            }
             lf.Show();
         }
         ExitCheckForm ExitApp = new ExitCheckForm();

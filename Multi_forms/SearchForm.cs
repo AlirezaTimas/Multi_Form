@@ -13,8 +13,9 @@ namespace Multi_forms
     public partial class SearchForm : Form
     {
         public PayForm pf;
+        public UserPannel up;
         public string[] NamesArray = { "علی", "رضا", "محمد", "امید", "برسام", "دانیال" };
-        
+
 
         public SearchForm()
         {
@@ -29,7 +30,16 @@ namespace Multi_forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == NamesArray[0])
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("برای پیدا کردن شماره دانشجویی باید یکی از اسامی مجاز را وارد کنید");
+            }
+            else if (textBox1.Text != NamesArray[0] && textBox1.Text != NamesArray[1] && textBox1.Text != NamesArray[2] && textBox1.Text != NamesArray[3] && textBox1.Text != NamesArray[4])
+            {
+                MessageBox.Show("لطفا تنها از اسامی مجاز موجود در لیست استفاده کنید");
+            }
+
+            else if (textBox1.Text == NamesArray[0])
             {
                 pf.textBox1.Text = "14001123";
                 this.Hide();
@@ -54,6 +64,7 @@ namespace Multi_forms
                 pf.textBox1.Text = "14001321";
                 this.Hide();
             }
+            
         }
 
         private void SearchForm_Load(object sender, EventArgs e)

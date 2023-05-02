@@ -60,9 +60,9 @@ namespace Multi_forms
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(234, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 16);
+            this.label1.Size = new System.Drawing.Size(139, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "نام های موجود جهت جستجو";
+            this.label1.Text = "نام های مجاز جهت جستجو";
             // 
             // NamesBox
             // 
@@ -84,7 +84,7 @@ namespace Multi_forms
             this.Controls.Add(this.textBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SearchForm";
-            this.Text = "SearchForm";
+            this.Text = "فرم جستجو";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SearchForm_FormClosing);
             this.Load += new System.EventHandler(this.SearchForm_Load);
             this.ResumeLayout(false);
