@@ -38,17 +38,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 69);
+            this.label3.Location = new System.Drawing.Point(9, 56);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(448, 25);
+            this.label3.Size = new System.Drawing.Size(352, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "خوش آمدید ، جهت ورود نام کاربری و رمز عبور خود را وارد کنید";
             // 
             // UsernameTextBox
             // 
-            this.UsernameTextBox.Location = new System.Drawing.Point(84, 135);
+            this.UsernameTextBox.Location = new System.Drawing.Point(63, 110);
+            this.UsernameTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(293, 22);
+            this.UsernameTextBox.Size = new System.Drawing.Size(221, 20);
             this.UsernameTextBox.TabIndex = 3;
             this.UsernameTextBox.TextChanged += new System.EventHandler(this.UsernameTextBox_TextChanged);
             this.UsernameTextBox.Enter += new System.EventHandler(this.UsernameTextBox_Enter);
@@ -56,9 +58,10 @@
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(84, 189);
+            this.PasswordTextBox.Location = new System.Drawing.Point(63, 154);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(293, 22);
+            this.PasswordTextBox.Size = new System.Drawing.Size(221, 20);
             this.PasswordTextBox.TabIndex = 4;
             this.PasswordTextBox.TextChanged += new System.EventHandler(this.PasswordTextBox_TextChanged);
             this.PasswordTextBox.Enter += new System.EventHandler(this.PasswordTextBox_Enter);
@@ -66,9 +69,10 @@
             // 
             // EnterButton
             // 
-            this.EnterButton.Location = new System.Drawing.Point(84, 244);
+            this.EnterButton.Location = new System.Drawing.Point(63, 198);
+            this.EnterButton.Margin = new System.Windows.Forms.Padding(2);
             this.EnterButton.Name = "EnterButton";
-            this.EnterButton.Size = new System.Drawing.Size(293, 41);
+            this.EnterButton.Size = new System.Drawing.Size(220, 33);
             this.EnterButton.TabIndex = 5;
             this.EnterButton.Text = "ورود";
             this.EnterButton.UseVisualStyleBackColor = true;
@@ -76,17 +80,19 @@
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 339);
+            this.ClientSize = new System.Drawing.Size(371, 275);
             this.Controls.Add(this.EnterButton);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.UsernameTextBox);
             this.Controls.Add(this.label3);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LoginForm";
             this.Text = "صفحه ورود";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginForm_FormClosing);
             this.Load += new System.EventHandler(this.LoginForm_Load);
+            this.MouseEnter += new System.EventHandler(this.LoginForm_MouseEnter);
             this.ResumeLayout(false);
             this.PerformLayout();
 

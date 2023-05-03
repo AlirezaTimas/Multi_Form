@@ -85,3 +85,18 @@ D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms
 D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.csproj.CoreCompileInputs.cache
 D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.exe
 D:\Daneshgah\term 2 , pishrafte zare\MultiForm\Multi_forms\obj\Debug\Multi_forms.pdb
+D:\Visual studio project daneshgah\TEST\Multi_forms\bin\Debug\Multi_forms.exe.config
+D:\Visual studio project daneshgah\TEST\Multi_forms\bin\Debug\Multi_forms.exe
+D:\Visual studio project daneshgah\TEST\Multi_forms\bin\Debug\Multi_forms.pdb
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.csproj.AssemblyReference.cache
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.csproj.SuggestedBindingRedirects.cache
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.UserPannel.resources
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.ExitCheckForm.resources
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.LoginForm.resources
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.PayForm.resources
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.Properties.Resources.resources
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.SearchForm.resources
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.csproj.GenerateResource.cache
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.csproj.CoreCompileInputs.cache
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.exe
+D:\Visual studio project daneshgah\TEST\Multi_forms\obj\Debug\Multi_forms.pdb

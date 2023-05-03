@@ -59,6 +59,7 @@ namespace Multi_forms
             lf.PasswordTextBox.Text = "رمزعبور خود را وارد کنید";
             lf.ActiveControl = lf.EnterButton;
             lf.Show();
+ 
         }
         ExitCheckForm ExitApp = new ExitCheckForm();
         private void ExitButton_Click(object sender, EventArgs e)

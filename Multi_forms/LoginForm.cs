@@ -71,11 +71,20 @@ namespace Multi_forms
 
         private void PasswordTextBox_TextChanged(object sender, EventArgs e)
         {
+            if (PasswordTextBox.Text == "رمزعبور خود را وارد کنید")
+            {
+                PasswordTextBox.PasswordChar = '\0';
+            }
+            else
+            {
+                PasswordTextBox.PasswordChar = '*';
+            }
             if (PasswordTextBox.Text == "admin" && UsernameTextBox.Text == "admin") //if user enters username first and password after
             {
                 form1.Show();
                 this.Hide();
             }
+            
         }
 
         private void button1_Click(object sender, EventArgs e) // this button is created for situations that user closes Userpannel and wants to enter again without entering username and pass again 
@@ -118,6 +127,18 @@ namespace Multi_forms
             e.Cancel = true;
             check.Show();
 
+        }
+
+        private void LoginForm_MouseEnter(object sender, EventArgs e)
+        {
+            if (PasswordTextBox.Text == "رمزعبور خود را وارد کنید")
+            {
+                PasswordTextBox.PasswordChar = '\0';
+            }
+            else
+            {
+                PasswordTextBox.PasswordChar = '*';
+            }
         }
     }
 }
